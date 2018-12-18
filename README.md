@@ -1,1 +1,1 @@
-# rax-xslider
+# rax-xslider [![npm](https://img.shields.io/npm/v/rax-xslider.svg)](https://www.npmjs.com/package/rax-xslider)
