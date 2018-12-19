@@ -5,9 +5,9 @@
 
 import {createElement, Component, findDOMNode, setNativeProps} from 'rax';
 import {isWeex} from 'universal-env';
-import DefaultView from './views/DefaultView';
+import DefaultView from './DefaultView';
 import {FULL_WIDTH} from './Constant';
-import ListView from './views/ListView';
+import ListView from './ListView';
 
 
 const styles = {

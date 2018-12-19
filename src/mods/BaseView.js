@@ -4,10 +4,10 @@
 
 import {Component, setNativeProps, findDOMNode} from 'rax';
 import {isWeb} from 'universal-env';
-import Util, {isLoop, transformExpression, clamp, uuid, getLast} from '../Util';
-import Indicator from '../Indicator';
-import Panel from '../Panel';
-import {FULL_WIDTH} from '../Constant';
+import Util, {isLoop, transformExpression, clamp, uuid, getLast} from './Util';
+import Indicator from './Indicator';
+import Panel from './Panel';
+import {FULL_WIDTH} from './Constant';
 
 const DEFAULT_DURATION = 300;
 const DEFAULT_EASING = 'cubicBezier(.25,.1,.25,1)';

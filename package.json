@@ -1,6 +1,6 @@
 {
   "name": "rax-xslider",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "XSlider component for Rax.",
   "license": "BSD-3-Clause",
   "main": "lib/index.js",
@@ -10,7 +10,8 @@
     "lint": "eslint --ext .js --ext .jsx ./src"
   },
   "files": [
-    "dist"
+    "dist",
+    "lib"
   ],
   "repository": {
     "type": "git",
@@ -30,7 +31,7 @@
   },
   "dependencies": {
     "rax-gesture-view": "^0.6.0",
-    "universal-animation": "^0.6.0",
+    "universal-animation": "^0.6.6",
     "object-assign": "^4.1.1",
     "rax": "^0.6.5",
     "rax-link": "^0.6.5",

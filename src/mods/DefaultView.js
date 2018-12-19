@@ -2,15 +2,15 @@
 
 import {createElement, findDOMNode} from 'rax';
 import View from 'rax-view';
-import Detection from '../Detection';
+import Detection from './Detection';
 import {isWeex} from 'universal-env';
-import {isLoop, transformRangeSpec, getEl, noop, clamp, Emitter} from '../Util';
-import {EVENT_PAN_VIEW_PAN_START, FULL_WIDTH} from '../Constant';
+import {isLoop, transformRangeSpec, getEl, noop, clamp, Emitter} from './Util';
+import {EVENT_PAN_VIEW_PAN_START, FULL_WIDTH} from './Constant';
 import animate from 'universal-animation';
 import Binding from 'weex-bindingx';
 import BaseView from './BaseView';
-import Panel from '../Panel';
-import LoadMore from '../LoadMore';
+import Panel from './Panel';
+import LoadMore from './LoadMore';
 import GestureView from 'rax-gesture-view';
 
 // solve for transition duration = 0 bug

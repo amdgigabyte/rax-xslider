@@ -3,9 +3,9 @@
 import {createElement, findDOMNode} from 'rax';
 import BaseView from './BaseView';
 import View from 'rax-view';
-import {FULL_WIDTH} from '../Constant';
-import Panel from '../Panel';
-import {clamp, isLoop, noop} from '../Util';
+import {FULL_WIDTH} from './Constant';
+import Panel from './Panel';
+import {clamp, isLoop, noop} from './Util';
 
 let DOM = null;
 
